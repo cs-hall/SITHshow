@@ -59,7 +59,7 @@ Requires Python 3.9+ and JAX 0.4.13+. See the [JAX Docs](https://jax.readthedocs
 
 **Getting started with SITH**
 
-- [CME Demo](https://github.com/compmem/SITHshow/blob/main/examples/cme_demo.ipynb)
+- [SITH Intro](https://github.com/compmem/SITHshow/blob/main/examples/sith_intro.ipynb)
 
 **Train on one scale, generalize to many with SITHCon**
 
