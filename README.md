@@ -64,7 +64,7 @@ Requires Python 3.9+ and JAX 0.4.13+. See the [JAX Docs](https://jax.readthedocs
 **Train on one scale, generalize to many with SITHCon**
 
 - [Morse Decoder](https://github.com/compmem/SITHshow/blob/main/examples/morse_code.ipynb) (suitable to run on cpu)
-- [AudioMNIST](https://github.com/compmem/SITHshow/blob/main/examples/audio_mnist.ipynb) (more computationally intensive)
+- [AudioMNIST](https://github.com/compmem/SITHshow/blob/main/examples/audio_mnist.ipynb) (more computationally intensive, GPU recommended)
 
 **Efficiently learn latent number lines with CNL**
 
