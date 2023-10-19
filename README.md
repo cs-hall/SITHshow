@@ -1,4 +1,4 @@
-<h1 align='center'>SITH (Scale-Invariant Temporal History)</h1>
+<h1 align='center'>SITHshow: Scale-Invariant Temporal History Showcase</h1>
 
 ## Overview
 
@@ -15,16 +15,16 @@ Requires Python 3.9+ and JAX 0.4.13+.
 
 Work through the notebooks in Google Colab...
 
-Get started with SITH
+**Get started with SITH**
 
 - [CME Demo](https://github.com/compmem/SITHshow/blob/main/examples/cme_demo.ipynb)
 
-Train on one scale, generalize to many with SITHCon
+**Train on one scale, generalize to many with SITHCon**
 
 - [Morse Decoder](https://github.com/compmem/SITHshow/blob/main/examples/morse_code.ipynb) (suitable to run on cpu)
 - [AudioMNIST](https://github.com/compmem/SITHshow/blob/main/examples/audio_mnist.ipynb) (more computationally intensive)
 
-Efficiently learn latent number lines with CNL
+**Efficiently learn latent number lines with CNL**
 
 - [Odometer](https://github.com/compmem/SITHshow/blob/main/examples/odometer.ipynb) (suitable to run on cpu) 
 
