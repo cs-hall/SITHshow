@@ -12,7 +12,7 @@ The easiest way to get started is to run the [example notebooks](#examples) in G
 
 To install this package with the JAX CPU backend (Windows users), run
 
-```
+```bash
 pip install --upgrade "jax[cpu]"
 
 git clone https://github.com/compmem/SITHshow
@@ -22,7 +22,7 @@ pip install .
 
 To install this package with the JAX GPU backend (NVIDIA only), run one of the corresponding code chunks compatible with your GPU.
 
-```
+```bash
 # CUDA 12 installation
 # Note: wheels only available on linux.
 pip install --upgrade "jax[cuda12_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
@@ -32,7 +32,7 @@ cd SITHshow
 pip install .
 ```
 
-```
+```bash
 # CUDA 11 installation
 # Note: wheels only available on linux.
 pip install --upgrade "jax[cuda11_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
@@ -45,7 +45,7 @@ pip install .
 
 To install this package with the JAX TPU backend, run
 
-```
+```bash
 pip install jax[tpu] -f https://storage.googleapis.com/jax-releases/libtpu_releases.html
 
 git clone https://github.com/compmem/SITHshow
