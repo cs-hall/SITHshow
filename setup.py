@@ -19,6 +19,7 @@ setup(name='sithshow',
         "numpy",
         "matplotlib",
         "tqdm",
+        "ipykernel",
         ],
       extras_require={
         "cpu": f"jax[cpu]{_jax_version_constraints}",

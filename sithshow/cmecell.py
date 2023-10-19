@@ -14,7 +14,7 @@ import equinox as eqx
 config.update("jax_enable_x64", True)
 
 def load_cme_params() -> dict:
-    with importlib.resources.open_text("sith", "iltcme.json") as file:
+    with importlib.resources.open_text("sithshow", "iltcme.json") as file:
         cme_params = json.load(file)  
 
     return cme_params
