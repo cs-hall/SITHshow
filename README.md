@@ -1,14 +1,24 @@
 <h1 align='center'>SITHshow: Scale-Invariant Temporal History Showcase</h1>
 
+<h4 align="center">
+  <a href="#overview">Overview</a> | 
+  <a href="#quickstart">Quickstart</a> |
+  <a href="#installation">Installation</a> |
+  <a href="#examples">Examples</a> |
+  <a href="#more-sith">More SITH</a> 
+</h4>
+
+
 ## Overview
 
 SITHshow is a library showcasing applications of the neurally inspired [SITH](https://direct.mit.edu/neco/article/24/1/134/7733/A-Scale-Invariant-Internal-Representation-of-Time) representation of working memory for use in neural networks. Because SITH has a fuzzy memory of the past, it can often outperform RNNs and deep learning models with fixed buffers.  
 
-... **overview here** ...
+## Quickstart
+
+Jump right in by trying the [example notebooks](#examples) in Google Colaboratory!
 
 ## Installation
 
-The easiest way to get started is to run the [example notebooks](#examples) in Google Colaboratory.
 
 To install this package with the JAX CPU backend (Windows users without WSL 2), run
 
@@ -47,9 +57,7 @@ Requires Python 3.9+ and JAX 0.4.13+. See the [JAX Docs](https://jax.readthedocs
 
 ## Examples
 
-Work through the notebooks in Google Colab...
-
-**Get started with SITH**
+**Getting started with SITH**
 
 - [CME Demo](https://github.com/compmem/SITHshow/blob/main/examples/cme_demo.ipynb)
 
@@ -64,8 +72,7 @@ Work through the notebooks in Google Colab...
 
 ## More SITH
 
-TODO do we put papers here?
 
-DeepSITH
-RL SITH
-etc.
+- [Learning long-range temporal dependencies with DeepSITH](https://proceedings.neurips.cc/paper/2021/hash/e7dfca01f394755c11f853602cb2608a-Abstract.html)   
+
+- [Applications of SITH in RL](https://open.bu.edu/handle/2144/45979)
