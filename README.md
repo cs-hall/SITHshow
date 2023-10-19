@@ -10,7 +10,7 @@ SITHshow is a library showcasing applications of the neurally inspired [SITH](ht
 
 The easiest way to get started is to run the [example notebooks](#examples) in Google Colaboratory.
 
-To install this package with the JAX CPU backend (Windows users), run
+To install this package with the JAX CPU backend (Windows users without WSL 2), run
 
 ```bash
 pip install --upgrade "jax[cpu]"
@@ -36,17 +36,6 @@ pip install .
 # CUDA 11 installation
 # Note: wheels only available on linux.
 pip install --upgrade "jax[cuda11_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
-
-git clone https://github.com/compmem/SITHshow
-cd SITHshow
-pip install .
-```
-
-
-To install this package with the JAX TPU backend, run
-
-```bash
-pip install jax[tpu] -f https://storage.googleapis.com/jax-releases/libtpu_releases.html
 
 git clone https://github.com/compmem/SITHshow
 cd SITHshow
