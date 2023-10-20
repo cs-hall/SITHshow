@@ -110,7 +110,7 @@ class CMECell(eqx.Module):
         self.s = jnp.outer(1 / self.tau_stars, self.beta)
     
         # HACK to add more n taus while keeping old tau_stars the same 
-        if len(kwargs) != 0:
+        if len(kwargs) != 0 and kwargs['_n_taus_'] != self.n_taus:
             self.n_taus = kwargs['_n_taus_']
             self.tau_stars = kwargs['_tau_stars_']
             self.tau_max = float(kwargs['_tau_max_'])
